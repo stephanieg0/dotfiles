@@ -9,7 +9,7 @@ jobs:
       issues: write
       pull-requests: write
     steps:
-    - run: echo "::warning file=dot_zshrc,line=1,col=5,endColumn=7::Missing semicolon"
+    - run: echo "::warning file=dot_zshrc😀,line=1,col=5,endColumn=7::Missing semicolon😱"
     - uses: actions/first-interaction@v1
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
