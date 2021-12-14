@@ -1,1 +1,1 @@
-This is a test for dotfiles.
+This is a test for dotfiles 😀.
