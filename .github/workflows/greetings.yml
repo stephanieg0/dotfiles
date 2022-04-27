@@ -1,4 +1,4 @@
-name: Greetings 😀
+name: 👋 Hello!
 
 on: [pull_request, issues]
 
