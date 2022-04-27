@@ -1,12 +1,11 @@
 name: Greetings 😀
 
-on: [pull_request, issues]
+on: [pull_request]
 
 jobs:
   greeting:
     runs-on: ubuntu-latest
     permissions:
-      issues: write
       pull-requests: write
     steps:
     - run: echo "::warning file=dot_zshrc,line=1,col=5,endColumn=7::Missing semicolon"
