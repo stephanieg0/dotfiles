@@ -1,0 +1,11 @@
+name: 'action name 😀'
+description: 'description! 😀'
+author: 'Your name or organization here'
+inputs:
+  my-input:
+    required: false
+    description: 'a great description of your input'
+    default: 'a suitable default value'
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
